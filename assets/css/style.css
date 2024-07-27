@@ -201,13 +201,13 @@ table th {
 }
 
 .menu-spacing {
-  height: 7rem;
+  height: 5.7rem;
 }
 
 /* Intro content */
 .intro-content {
   position: relative;
-  top: -8rem;
+  top: -6rem;
   display: grid;
   grid-template-columns: 1fr 2fr;
   gap: var(--gap);
@@ -224,7 +224,7 @@ table th {
 
 .intro-img-content img,
 .intro-img-content svg {
-  max-width: 100%;
+  max-width: 90%;
   height: auto;
 }
 
@@ -410,6 +410,11 @@ textarea {
 }
 
 @media (max-width: 800px) {
+  h2 {
+    font-size: 5rem;
+    word-break: normal;
+  }
+
   .intro-content,
   .grid,
   .contact-content {
@@ -477,5 +482,12 @@ textarea {
 
   .menu-spacing {
     display: none;
+  }
+}
+
+@media (max-width: 400px) {
+  h2 {
+    font-size: 3.5rem;
+    word-break: normal;
   }
 }
