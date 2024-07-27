@@ -1,0 +1,332 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap"
+      rel="stylesheet"
+    />
+    <title>Landing Page</title>
+  </head>
+  <body>
+    <input
+      type="checkbox"
+      role="button"
+      aria-label="Close menu"
+      id="close-menu"
+      class="close-menu"
+    />
+    <label class="close-menu-label" for="close-menu" title="close menu"></label>
+    <aside class="menu white-bg">
+      <div class="main-content menu-content">
+        <h1 onclick="getElementById('close-menu').checked = false;">
+          <a href="#intro">LOGO</a>
+        </h1>
+        <nav>
+          <ul onclick="getElementById('close-menu').checked = false;">
+            <li><a href="#depoimentos">Depoimentos</a></li>
+            <li><a href="#grid-one">Grid</a></li>
+            <li><a href="#gallery">Gallery</a></li>
+            <li><a href="#grid-two">Grid 2</a></li>
+            <li><a href="#table">Table</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </nav>
+      </div>
+    </aside>
+
+    <div class="menu-spacing"></div>
+
+    <section id="intro" class="main-bg section">
+      <div class="main-content intro-content">
+        <div class="intro-text-content">
+          <h2>Empresa Tecnologia</h2>
+          <p>
+            Na Empresa Tecnologia, transformamos ideias inovadoras em soluções
+            digitais de impacto. Nossa missão é facilitar a vida das pessoas
+            através de tecnologia de ponta, desenvolvendo produtos e serviços
+            que conectam, simplificam e evoluem com o mundo.
+          </p>
+        </div>
+        <div class="intro-img-content">
+          <img
+            src="./assets/images/tecnologia.svg"
+            alt="Desenho de uma mulher com uma caneca na mão, programando"
+          />
+        </div>
+      </div>
+    </section>
+
+    <section id="depoimentos" class="white-bg section">
+      <div class="main-content depoimentos-content">
+        <h2>Dizem por aí...</h2>
+        <blockquote>
+          "A Empresa Tecnologia transformou nossa visão em realidade com suas
+          soluções inovadoras. Estamos extremamente satisfeitos com os
+          resultados!"
+          <footer>– Ana Silva, CEO da Startup XYZ</footer>
+        </blockquote>
+        <blockquote>
+          "A equipe foi além das expectativas, entregando um produto que não
+          apenas atende às nossas necessidades, mas as supera."
+          <footer>– Carlos Sousa, Diretor de TI da Empresa ABC</footer>
+        </blockquote>
+        <blockquote>
+          "Tecnologia de ponta e um serviço ao cliente excepcional. Recomendo
+          fortemente!"
+          <footer>
+            – Mariana Costa, Gerente de Projetos na Corporação 123
+          </footer>
+        </blockquote>
+      </div>
+    </section>
+
+    <section id="grid-one" class="grid-one main-bg section">
+      <div class="main-content grid-content">
+        <h2 class="grid-main-heading">My Grid</h2>
+        <p class="grid-description">Descricao curta</p>
+
+        <div class="grid">
+          <article>
+            <h3>Teste 1</h3>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum
+              voluptas harum ducimus quam a ea, velit eligendi consectetur et
+              laboriosam ex, totam molestias iste itaque soluta natus facilis
+              hic esse!
+            </p>
+          </article>
+          <article>
+            <h3>Teste 2</h3>
+            <p>
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+              Blanditiis molestias asperiores sit accusamus, ullam, rem
+              voluptatum consectetur officia a, nemo beatae nulla? Soluta libero
+              sint pariatur nostrum, ad distinctio at.
+            </p>
+          </article>
+          <article>
+            <h3>Teste 3</h3>
+            <p>
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Corporis
+              porro neque sunt dicta laboriosam voluptates ex illo voluptate
+              voluptatibus corrupti, ipsum hic autem aliquid pariatur aut
+              temporibus praesentium nemo saepe?
+            </p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="gallery" class="grid-one white-bg section">
+      <div class="main-content grid-content">
+        <h2 class="grid-main-heading">Gallery</h2>
+        <p class="grid-description">Nossos projetos</p>
+
+        <div class="grid">
+          <div class="gallery-img">
+            <img src="https://picsum.photos/360/360?r=1" alt="random image" />
+          </div>
+          <div class="gallery-img">
+            <img src="https://picsum.photos/360/360?r=3" alt="random image" />
+          </div>
+          <div class="gallery-img">
+            <img src="https://picsum.photos/360/360?r=2" alt="random image" />
+          </div>
+          <div class="gallery-img">
+            <img src="https://picsum.photos/360/360?r=4" alt="random image" />
+          </div>
+          <div class="gallery-img">
+            <img src="https://picsum.photos/360/360?r=5" alt="random image" />
+          </div>
+          <div class="gallery-img">
+            <img src="https://picsum.photos/360/360?r=6" alt="random image" />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="grid-two" class="grid-one main-bg section">
+      <div class="main-content grid-content">
+        <h2 class="grid-main-heading">Grid 2</h2>
+        <p class="grid-description">Descricao curta</p>
+
+        <div class="grid">
+          <article>
+            <h3>Teste 4</h3>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum
+              voluptas harum ducimus quam a ea, velit eligendi consectetur et
+              laboriosam ex, totam molestias iste itaque soluta natus facilis
+              hic esse!
+            </p>
+          </article>
+          <article>
+            <h3>Teste 5</h3>
+            <p>
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+              Blanditiis molestias asperiores sit accusamus, ullam, rem
+              voluptatum consectetur officia a, nemo beatae nulla? Soluta libero
+              sint pariatur nostrum, ad distinctio at.
+            </p>
+          </article>
+          <article>
+            <h3>Teste 6</h3>
+            <p>
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Corporis
+              porro neque sunt dicta laboriosam voluptates ex illo voluptate
+              voluptatibus corrupti, ipsum hic autem aliquid pariatur aut
+              temporibus praesentium nemo saepe?
+            </p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="table" class="white-bg section">
+      <div class="main-content depoimentos-content">
+        <h2>Tabela de Preco</h2>
+        <p>
+          Olha essa tabela incrivel abaixo que mostra a qualidade de nossos
+          servicos e etc...
+        </p>
+        <div class="responsible-table">
+          <table>
+            <caption>
+              Tabela de Precos
+            </caption>
+
+            <thead>
+              <tr>
+                <th>Titulo 1</th>
+                <th>Titulo 2</th>
+                <th>Titulo 3</th>
+                <th>Titulo 4</th>
+                <th>Titulo 5</th>
+              </tr>
+            </thead>
+
+            <tbody>
+              <tr>
+                <td>Conteudo 1</td>
+                <td>Conteudo 1</td>
+                <td>Conteudo 1</td>
+                <td>Conteudo 1</td>
+                <td>Conteudo 1</td>
+              </tr>
+            </tbody>
+            <tbody>
+              <tr>
+                <td>Conteudo 1</td>
+                <td>Conteudo 1</td>
+                <td>Conteudo 1</td>
+                <td>Conteudo 1</td>
+                <td>Conteudo 1</td>
+              </tr>
+            </tbody>
+            <tbody>
+              <tr>
+                <td>Conteudo 1</td>
+                <td>Conteudo 1</td>
+                <td>Conteudo 1</td>
+                <td>Conteudo 1</td>
+                <td>Conteudo 1</td>
+              </tr>
+            </tbody>
+
+            <tfoot>
+              <tr>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td>Testando</td>
+              </tr>
+            </tfoot>
+          </table>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="main-bg section">
+      <div class="main-content contact-content">
+        <div class="intro-text-content">
+          <h2>Fale com a gente!</h2>
+          <p>
+            Iremos sempre buscar ajudar da melhor maneira possivel, fazendo
+            pesadelos se transformando em unicornios
+          </p>
+        </div>
+        <div class="intro-img-content">
+          <img
+            src="./assets/images/contact.svg"
+            alt="Desenho de uma mulher com uma caneca na mão, programando"
+          />
+        </div>
+        <div class="contact-form">
+          <fieldset class="form-grid">
+            <legend>Contate nos</legend>
+
+            <div class="form-group">
+              <label for="first_name">Primeiro nome</label>
+              <input
+                type="text"
+                name="first_name"
+                id="first_name"
+                placeholder="Digite o seu nome"
+              />
+            </div>
+            <div class="form-group">
+              <label for="last_name">Sobrenome</label>
+              <input
+                type="text"
+                name="last_name"
+                id="last_name"
+                placeholder="Digite o seu sobrenome"
+              />
+            </div>
+            <div class="form-group">
+              <label for="email">E-mail</label>
+              <input
+                type="email"
+                name="email"
+                id="email"
+                placeholder="Digite o seu email"
+              />
+            </div>
+            <div class="form-group full-width">
+              <label for="message">Mensagem</label>
+              <textarea
+                cols="30"
+                rows="10"
+                type="email"
+                name="message"
+                id="message"
+                placeholder="Digite a sua mensagem"
+              ></textarea>
+            </div>
+
+            <div class="form-group">
+              <button type="submit">Envie a mensagem</button>
+            </div>
+          </fieldset>
+        </div>
+      </div>
+    </section>
+
+    <footer id="footer" class="footer white-bg">
+      <p>
+        Feito por
+        <a target="_blank" href="https://github.com/PedroCunha06"
+          >Pedro Alves</a
+        >
+      </p>
+    </footer>
+
+    <a class="back-to-top" href="#"><img width="50" height="50" src="https://img.icons8.com/ios-filled/50/right--v1.png" alt="right--v1"/></a>
+  </body>
+</html>
